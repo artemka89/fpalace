@@ -15,8 +15,11 @@ export default {
         lihgt: "#FFFEFC",
         soft: "#fff9f0",       
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       boxShadow: {
-        '3xl': '0px 20px 40px 0px rgba(255, 151, 2, 0.15)',
+        '3xl': '0px 20px 40px 0px rgba(255, 151, 2, 0.2)',
       },
       screens: {
         xs: "480px",

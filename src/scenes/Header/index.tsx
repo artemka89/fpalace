@@ -13,7 +13,7 @@ type Props = {
 const Header: FC<Props> = ({ selectedSection, setSelectedSection }) => {
   const isMediumScreen = useMediaQuery("(min-width: 1060px)");
   return (
-    <header className="flex-between w-full py-[46px]">
+    <header className="flex-between w-full py-[46px] mb-12">
       <div className="flex-between">
         <div className="-mt-1 pr-12">
           <img src={logo} alt="logo" />
