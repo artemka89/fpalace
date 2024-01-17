@@ -5,6 +5,9 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
       colors: {
         primary: "#2E2E2E",
         secondary: "#3F3232",
